@@ -1,1 +1,2 @@
-# Extens-o-sem-Login-
+# Extens-o-Super-Crm
+Extensão SuperCrm

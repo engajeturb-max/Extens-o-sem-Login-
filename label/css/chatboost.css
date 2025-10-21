@@ -1,0 +1,18 @@
+
+
+:root {
+    --primaria: #15cbcc;
+    --secundaria: #219999;
+    --terciaria: #15cccc80;
+
+    --letra: #fff;
+}
+
+
+.dark{
+    --primaria: #15cbcc;
+    --secundaria: #219999;
+    --terciaria: #15cccc80;
+
+    --letra: #fff;
+}

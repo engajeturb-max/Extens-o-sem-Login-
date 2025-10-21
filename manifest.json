@@ -1,0 +1,27 @@
+{
+   "action": {
+      "default_icon": "label/icons/icon.png"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "label/css/chatboost.css", "content/assets/css/style.css", "content.css" ],
+      "js": [ "content/index.js" ],
+      "matches": [ "https://web.whatsapp.com/*" ]
+   } ],
+   "description": "Softwares de Automação é um CRM para WhatsApp Web. Organize seus chats e otimize seus negócios no WhatsApp Web",
+   "icons": {
+      "128": "label/icons/icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs41U5pVxvdSSpylLjAejwEQlUb3KpKic7F+79if90YyYq3bW5rE424yFDS5Pa+BuecuEUKRCGeMOVmhNZBfn/FVSxCj846HJRsNdOjjR33U39jumRofrjEpei2jGIv4um5kd7LF8p8hnrebWveKpVzyaAqbpHke94XVbiTBLjmze5WkXy3daik0MRMSql7bdZxtOc/5LIqeuXiKQYcq15s1nOqNsDOqMrhFnRUxX4diCqnH2ierR1oPigUXSnaKzAUHeU/83PVjJ9OUOiTIIucKgi8F2Pj+iegyPeiBxVURIhTqcTFNPD6vd0XlWovTl2gYmEhznBXL5WW7GE4MO9QIDAQAB",
+   "manifest_version": 3,
+   "name": "Softwares de Automação",
+   "permissions": [ "unlimitedStorage", "storage", "alarms", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "17.7",
+   "web_accessible_resources": [ {
+      "matches": [ "https://web.whatsapp.com/*" ],
+      "resources": [ "*.js", "*.css", "*.png", "*.mp3", ".ttf", "label/*.json", "label/*.png" ]
+   } ]
+}
